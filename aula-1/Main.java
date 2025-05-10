@@ -1,7 +1,35 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
 public class Main
 {
 	public static void main(String[] args) {
-        // Escreva seu código aqui ⬇️
-		System.out.println("Hello World");
+	  
+	  char meunome = 'l';
+	  char nomedoamigo = 'b';
+	  
+	  System.out.println  ('l' == 'b');
+	System.out.println('l' != 'b');
+	System.out.println('l' > 'b');
+	
+	 int idadebreno = 32;
+	 int idadelucas = 15;
+	  System.out.println(idadebreno == idadelucas);  
+	     
+	  boolean Tachovendo = true;
+      boolean relampago = true;
+      if (Tachovendo && relampago){
+       System.out.println("nao sairei");
+      }
+     else {
+    System.out.println("sairei");
+}
 	}
+	
+
 }
